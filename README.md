@@ -12,6 +12,8 @@ Instalar o [NodeJS](https://nodejs.org/en/) (versão 10.16.0 LTS).
 Instalar o [Yarn](https://yarnpkg.com/pt-BR/).
 
 
+#### MongoDB
+Configurar o [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) ([Manual configuração](https://docs.mongodb.com/manual/installation/)).
 
 ## Rodando o Backend da aplicação:
 
@@ -31,7 +33,6 @@ yarn add multer
 ~~~
 
 Substituir a URL do primeiro parâmetro da instrução ``` mongoose.connect(); ``` do arquivo ``` src/index.js ``` pelo link gerado pelo MongoDB com o nome de um usuário e senha.
-Manual para configurar um cluster no MongoDB Atlas: <https://docs.mongodb.com/manual/installation/>
 
 ~~~bash
 # Para executar o Backend da aplicação:
